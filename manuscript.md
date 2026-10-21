@@ -1,6 +1,6 @@
 ---
 asset: manuscript
-version: 2.1.0
+version: 2.1.1
 生成元入力: manuscript-v1.3.0.md, manuscript-REVIEW.md v2.0.0（nature-panel-review セット 1）, data/panel_variants.csv, perprobe_opt.csv, hidden_partition_sdp.csv, asymptotic_thresholds_mp.csv, impl-report.md, data/*.csv, vault notes（Bae–Acín 2007, Acín et al. 2006）
 依存工程: S18（S7 改訂）, S3, S5, S6, S15
 生成日: 2026-10-09
@@ -150,6 +150,8 @@ Two observations about the reference formula arose in the course of the work. Th
 ## 8. Conclusion
 
 A quantum computational timelock on the post-processing of decoy-state BB84 with advantage distillation can hide the parities, the block partition and the bases. Hiding the parities buys nothing: Theorem 1 gives, for every block size, an explicit measurement made before the parities are known that attains the adaptive Helstrom value, so the adversary's guessing probability is unchanged and the key length in the min-entropy accounting is the collective-attack value, 17.66% at $10^{14}$ pulses against the 17.30% certified by the entropic-uncertainty bound of Treplin et al.; only the Shannon accounting for block-local measurements retains a timelock-dependent excess, 0.7 percentage points between the best values over $b$. Hiding the partition is the lever that the remark of Bae and Acín requires: an adversary whose memory is shorter than the time between the probes of a block, which the random partition of Treplin et al. makes a sizeable fraction of the run, cannot bring them together; under the stated assumption that feed-forward on unrelated probes and correlations across blocks are neglected, we model her by role-blind per-probe measurements, and the Helstrom benchmark, not improved by a numerical search over identical four-outcome measurements at odd block sizes, gives 20.8% (Shannon) and 20.7% (min-entropy) at $10^{14}$ pulses and $b=9$, 19.4% and 20.6% with the post-selection factor charged as a sensitivity check, with the 25% limit of Gisin and Wolf as asymptote. Whether an adversary who holds many probes without the partition can do better is open; at six probes she recovers most of the adaptive value, so at these sizes the gain rests on locality. Hiding the basis leaves the BB84 guessing probability unchanged at one- and two-bit blocks and, for six-state, reduces the gain of the memoryless setting by an order of magnitude once two- or three-bit blocks are formed. The key-length formula of Treplin et al. must be used within its stated domain, and the per-probe adversary's information must be computed from the vote tally rather than from the majority-vote error.
+
+**Data availability.** The Python implementation, every result file behind the tables and figures, and the Markdown source of this paper are available at https://github.com/deeptell-inc/timelocked-ad and are also provided as Supplemental Material (ancillary files of the arXiv version).
 
 ## Appendix A. Proof of Theorem 1
 

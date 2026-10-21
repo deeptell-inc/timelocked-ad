@@ -146,3 +146,6 @@ version: 0.3.0
 - 両バンドル再作成（main.tex 同一、arXiv 要旨 1913 字、README/カバーレター/requirements/README_anc 更新、tar.gz/zip）。
 - 収束宣言: 科学的較正・パッケージ整合の両ループとも収束（adversarial-review-log.md v2.1.0）。
 - 残り（ユーザー作業）: arXiv アップロード → 番号記入、資金・ORCID、推薦査読者確認、APS 投稿。
+
+## DAS 更新（2026-10-21）
+- GitHub リポジトリ https://github.com/deeptell-inc/timelocked-ad（private、arXiv 投稿時に public 化）を作成。原稿 v2.1.1 に Data availability 段落（Appendix A 直前）、declarations・カバーレター・arXiv メタデータ・README に反映。両バンドル再作成。

@@ -2,7 +2,7 @@ Title: Does hiding the post-processing from a memory-limited eavesdropper raise 
 Authors: Hikaru Wakaura (QIRI, Quantum Integrated Research Institute Inc., Tokyo)
 Primary category: quant-ph
 Cross-list: (none; optionally cs.CR)
-Comments: 14 pages, 3 figures, 4 tables. Code and data are included as ancillary files.
+Comments: 14 pages, 3 figures, 4 tables. Code and data are included as ancillary files and at https://github.com/deeptell-inc/timelocked-ad.
 License: arXiv.org perpetual, non-exclusive license (allows later journal submission)
 MSC/ACM: (none)
 Report-No: (none)

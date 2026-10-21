@@ -115,5 +115,6 @@ for line in refs.splitlines():
     m=re.match(r'- \[([A-Za-z0-9]+)\] (.*)', line)
     if m: tex.append('\\bibitem{%s} %s\n'%(m.group(1), m.group(2).replace('\\%','%').replace('%','\\%')))
 tex.append('\\end{thebibliography}\n\\end{document}\n')
-open(os.path.join(os.path.dirname(__file__) or '.','main.tex'),'w').write(''.join(tex))
+out=''.join(tex).replace('https://github.com/deeptell-inc/timelocked-ad','\\url{https://github.com/deeptell-inc/timelocked-ad}')
+open(os.path.join(os.path.dirname(__file__) or '.','main.tex'),'w').write(out)
 print("main.tex written")

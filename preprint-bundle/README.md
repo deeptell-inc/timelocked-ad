@@ -18,7 +18,8 @@ Generated 2026-10-19 from manuscript.md v2.1.0 (after two sets of the adversaria
 - [x] Abstract 1913 characters (< arXiv limit 1920).
 - [x] Author name and affiliation filled (Wakaura; QIRI).
 - [ ] arXiv metadata (see `arxiv-metadata.txt`): title, abstract (plain text), primary category quant-ph, comments, license (arXiv non-exclusive licence recommended for later PRA submission).
-- [ ] Optional: ORCID, funding acknowledgement, data/code statement (currently "ancillary files").
+- [x] Data/code statement: ancillary files + https://github.com/deeptell-inc/timelocked-ad (Data availability paragraph before Appendix A).
+- [ ] Optional: ORCID, funding acknowledgement.
 
 ## Reproduction
 ```
