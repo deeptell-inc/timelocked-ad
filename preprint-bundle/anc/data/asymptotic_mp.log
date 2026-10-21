@@ -1,0 +1,25 @@
+{'f': 1.2, 'b': 1, 'thr_EUR_T25': 0.09549, 'thr_individual': 0.12563, 'thr_joint_shannon': 0.12563, 'thr_joint_minent': 0.06567}
+{'f': 1.2, 'b': 2, 'thr_EUR_T25': 0.13171, 'thr_individual': 0.16743, 'thr_joint_shannon': 0.15965, 'thr_joint_minent': 0.11157}
+{'f': 1.2, 'b': 3, 'thr_EUR_T25': 0.14861, 'thr_individual': 0.18456, 'thr_joint_shannon': 0.17245, 'thr_joint_minent': 0.13466}
+{'f': 1.2, 'b': 5, 'thr_EUR_T25': 0.16503, 'thr_individual': 0.20306, 'thr_joint_shannon': 0.1833, 'thr_joint_minent': 0.15678}
+{'f': 1.2, 'b': 7, 'thr_EUR_T25': 0.17308, 'thr_individual': 0.21275, 'thr_joint_shannon': 0.18805, 'thr_joint_minent': 0.16732}
+{'f': 1.2, 'b': 9, 'thr_EUR_T25': 0.17791, 'thr_individual': 0.21882, 'thr_joint_shannon': 0.19071, 'thr_joint_minent': 0.17348}
+{'f': 1.2, 'b': 11, 'thr_EUR_T25': 0.18114, 'thr_individual': 0.22303, 'thr_joint_shannon': 0.19239, 'thr_joint_minent': 0.17756}
+{'f': 1.2, 'b': 15, 'thr_EUR_T25': 0.18526, 'thr_individual': 0.22855, 'thr_joint_shannon': 0.19442, 'thr_joint_minent': 0.18266}
+{'f': 1.2, 'b': 21, 'thr_EUR_T25': 0.18874, 'thr_individual': 0.23337, 'thr_joint_shannon': 0.19602, 'thr_joint_minent': 0.1869}
+{'f': 1.2, 'b': 31, 'thr_EUR_T25': 0.19178, 'thr_individual': 0.23768, 'thr_joint_shannon': 0.1973, 'thr_joint_minent': 0.19055}
+{'f': 1.2, 'b': 41, 'thr_EUR_T25': 0.19345, 'thr_individual': 0.24011, 'thr_joint_shannon': 0.19796, 'thr_joint_minent': 0.19253}
+{'f': 1.2, 'b': 61, 'thr_EUR_T25': 0.19528, 'thr_individual': 0.24279, 'thr_joint_shannon': 0.19863, 'thr_joint_minent': 0.19466}
+{'f': 1.0, 'b': 1, 'thr_EUR_T25': 0.11003, 'thr_individual': 0.14645, 'thr_joint_shannon': 0.14645, 'thr_joint_minent': 0.07578}
+{'f': 1.0, 'b': 2, 'thr_EUR_T25': 0.13829, 'thr_individual': 0.17701, 'thr_joint_shannon': 0.168, 'thr_joint_minent': 0.11782}
+{'f': 1.0, 'b': 3, 'thr_EUR_T25': 0.15272, 'thr_individual': 0.19025, 'thr_joint_shannon': 0.17732, 'thr_joint_minent': 0.13895}
+{'f': 1.0, 'b': 5, 'thr_EUR_T25': 0.16732, 'thr_individual': 0.20618, 'thr_joint_shannon': 0.18585, 'thr_joint_minent': 0.15922}
+{'f': 1.0, 'b': 7, 'thr_EUR_T25': 0.17467, 'thr_individual': 0.21486, 'thr_joint_shannon': 0.18975, 'thr_joint_minent': 0.16898}
+{'f': 1.0, 'b': 9, 'thr_EUR_T25': 0.17911, 'thr_individual': 0.22041, 'thr_joint_shannon': 0.19197, 'thr_joint_minent': 0.17474}
+{'f': 1.0, 'b': 11, 'thr_EUR_T25': 0.18211, 'thr_individual': 0.2243, 'thr_joint_shannon': 0.1934, 'thr_joint_minent': 0.17856}
+{'f': 1.0, 'b': 15, 'thr_EUR_T25': 0.18596, 'thr_individual': 0.22945, 'thr_joint_shannon': 0.19514, 'thr_joint_minent': 0.18338}
+{'f': 1.0, 'b': 21, 'thr_EUR_T25': 0.18923, 'thr_individual': 0.23398, 'thr_joint_shannon': 0.19651, 'thr_joint_minent': 0.1874}
+{'f': 1.0, 'b': 31, 'thr_EUR_T25': 0.1921, 'thr_individual': 0.23809, 'thr_joint_shannon': 0.19763, 'thr_joint_minent': 0.19088}
+{'f': 1.0, 'b': 41, 'thr_EUR_T25': 0.1937, 'thr_individual': 0.24041, 'thr_joint_shannon': 0.19821, 'thr_joint_minent': 0.19277}
+{'f': 1.0, 'b': 61, 'thr_EUR_T25': 0.19544, 'thr_individual': 0.24299, 'thr_joint_shannon': 0.19879, 'thr_joint_minent': 0.19482}
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/asymptotic_thresholds_mp.csv

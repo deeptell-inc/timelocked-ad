@@ -1,0 +1,43 @@
+b=2 D=0.05 solved in 0 s
+{'b': 2, 'D': 0.05, 'c_psi': 0.89474, 'P_ind': 0.7233, 'P_joint': 0.79963, 'P_adaptive': 0.79963}
+b=2 D=0.10 solved in 0 s
+{'b': 2, 'D': 0.1, 'c_psi': 0.77778, 'P_ind': 0.81427, 'P_joint': 0.89814, 'P_adaptive': 0.89814}
+b=2 D=0.15 solved in 0 s
+{'b': 2, 'D': 0.15, 'c_psi': 0.64706, 'P_ind': 0.88122, 'P_joint': 0.95407, 'P_adaptive': 0.95407}
+b=2 D=0.18 solved in 0 s
+{'b': 2, 'D': 0.18, 'c_psi': 0.56098, 'P_ind': 0.91392, 'P_joint': 0.9746, 'P_adaptive': 0.9746}
+b=2 D=0.20 solved in 0 s
+{'b': 2, 'D': 0.2, 'c_psi': 0.5, 'P_ind': 0.93301, 'P_joint': 0.98412, 'P_adaptive': 0.98412}
+b=2 D=0.22 solved in 0 s
+{'b': 2, 'D': 0.22, 'c_psi': 0.4359, 'P_ind': 0.95, 'P_joint': 0.99089, 'P_adaptive': 0.99089}
+b=2 D=0.24 solved in 0 s
+{'b': 2, 'D': 0.24, 'c_psi': 0.36842, 'P_ind': 0.96483, 'P_joint': 0.99537, 'P_adaptive': 0.99537}
+b=3 D=0.05 solved in 0 s
+{'b': 3, 'D': 0.05, 'c_psi': 0.89474, 'P_ind': 0.81268, 'P_joint': 0.8489, 'P_adaptive': 0.8489}
+b=3 D=0.10 solved in 0 s
+{'b': 3, 'D': 0.1, 'c_psi': 0.77778, 'P_ind': 0.90933, 'P_joint': 0.9412, 'P_adaptive': 0.9412}
+b=3 D=0.15 solved in 0 s
+{'b': 3, 'D': 0.15, 'c_psi': 0.64706, 'P_ind': 0.96103, 'P_joint': 0.9813, 'P_adaptive': 0.9813}
+b=3 D=0.18 solved in 0 s
+{'b': 3, 'D': 0.18, 'c_psi': 0.56098, 'P_ind': 0.97904, 'P_joint': 0.99215, 'P_adaptive': 0.99215}
+b=3 D=0.20 solved in 0 s
+{'b': 3, 'D': 0.2, 'c_psi': 0.5, 'P_ind': 0.98714, 'P_joint': 0.99608, 'P_adaptive': 0.99608}
+b=3 D=0.22 solved in 0 s
+{'b': 3, 'D': 0.22, 'c_psi': 0.4359, 'P_ind': 0.99275, 'P_joint': 0.99828, 'P_adaptive': 0.99828}
+b=3 D=0.24 solved in 0 s
+{'b': 3, 'D': 0.24, 'c_psi': 0.36842, 'P_ind': 0.99638, 'P_joint': 0.99937, 'P_adaptive': 0.99937}
+b=4 D=0.05 solved in 4 s
+{'b': 4, 'D': 0.05, 'c_psi': 0.89474, 'P_ind': 0.81268, 'P_joint': 0.88382, 'P_adaptive': 0.88382}
+b=4 D=0.10 solved in 4 s
+{'b': 4, 'D': 0.1, 'c_psi': 0.77778, 'P_ind': 0.90933, 'P_joint': 0.96532, 'P_adaptive': 0.96532}
+b=4 D=0.15 solved in 4 s
+{'b': 4, 'D': 0.15, 'c_psi': 0.64706, 'P_ind': 0.96103, 'P_joint': 0.99226, 'P_adaptive': 0.99226}
+b=4 D=0.18 solved in 5 s
+{'b': 4, 'D': 0.18, 'c_psi': 0.56098, 'P_ind': 0.97904, 'P_joint': 0.99754, 'P_adaptive': 0.99754}
+b=4 D=0.20 solved in 3 s
+{'b': 4, 'D': 0.2, 'c_psi': 0.5, 'P_ind': 0.98714, 'P_joint': 0.99902, 'P_adaptive': 0.99902}
+b=4 D=0.22 solved in 3 s
+{'b': 4, 'D': 0.22, 'c_psi': 0.4359, 'P_ind': 0.99275, 'P_joint': 0.99967, 'P_adaptive': 0.99967}
+b=4 D=0.24 solved in 3 s
+{'b': 4, 'D': 0.24, 'c_psi': 0.36842, 'P_ind': 0.99638, 'P_joint': 0.99992, 'P_adaptive': 0.99992}
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/joint_block_sdp.csv

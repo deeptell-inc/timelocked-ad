@@ -1,0 +1,50 @@
+{'f': 1.2, 'b': 1, 'thr_EUR_T25': 0.09549353849069796, 'thr_QCT_VA': 0.12563372829199343}
+{'f': 1.2, 'b': 2, 'thr_EUR_T25': 0.1317075538147366, 'thr_QCT_VA': 0.1674322907308612}
+{'f': 1.2, 'b': 3, 'thr_EUR_T25': 0.148613828256412, 'thr_QCT_VA': 0.18455563015377976}
+{'f': 1.2, 'b': 5, 'thr_EUR_T25': 0.1650296813155728, 'thr_QCT_VA': 0.20306389441642742}
+{'f': 1.2, 'b': 7, 'thr_EUR_T25': 0.1730847660919677, 'thr_QCT_VA': 0.2127459103867061}
+{'f': 1.2, 'b': 9, 'thr_EUR_T25': 0.1779070311599486, 'thr_QCT_VA': 0.21882127999192252}
+{'f': 1.2, 'b': 11, 'thr_EUR_T25': 0.18114415269010997, 'thr_QCT_VA': 0.22303362820277534}
+{'f': 1.2, 'b': 15, 'thr_EUR_T25': 0.18525932958525954, 'thr_QCT_VA': 0.22855290050646682}
+{'f': 1.2, 'b': 21, 'thr_EUR_T25': 0.18873753701612805, 'thr_QCT_VA': 0.2333651273278417}
+{'f': 1.2, 'b': 31, 'thr_EUR_T25': 0.18375627449824916, 'thr_QCT_VA': 0.2376759103467999}
+{'f': 1.0, 'b': 1, 'thr_EUR_T25': 0.11002786443820345, 'thr_QCT_VA': 0.14644721675413447}
+{'f': 1.0, 'b': 2, 'thr_EUR_T25': 0.1382872616899313, 'thr_QCT_VA': 0.1770137292530928}
+{'f': 1.0, 'b': 3, 'thr_EUR_T25': 0.15271820397275598, 'thr_QCT_VA': 0.1902512500195052}
+{'f': 1.0, 'b': 5, 'thr_EUR_T25': 0.16732245345136162, 'thr_QCT_VA': 0.2061810249522217}
+{'f': 1.0, 'b': 7, 'thr_EUR_T25': 0.17466526240466304, 'thr_QCT_VA': 0.214857003305909}
+{'f': 1.0, 'b': 9, 'thr_EUR_T25': 0.17911031464748484, 'thr_QCT_VA': 0.2204056584017639}
+{'f': 1.0, 'b': 11, 'thr_EUR_T25': 0.18211438214982562, 'thr_QCT_VA': 0.22429669594558854}
+{'f': 1.0, 'b': 15, 'thr_EUR_T25': 0.185957355950577, 'thr_QCT_VA': 0.22944660180134718}
+{'f': 1.0, 'b': 21, 'thr_EUR_T25': 0.18922777991419962, 'thr_QCT_VA': 0.23398276660583342}
+{'f': 1.0, 'b': 31, 'thr_EUR_T25': 0.18375627449824916, 'thr_QCT_VA': 0.23808242178246433}
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/asymptotic_thresholds.csv
+{'kind': 'asymptotic', 'f': 1.2, 'b': 1, 'N': 'inf', 'thr_EUR': 0.09549353849069796, 'thr_joint_shannon': 0.12563372829199343, 'thr_joint_minent': 0.06567098739125597}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 2, 'N': 'inf', 'thr_EUR': 0.1317075538147366, 'thr_joint_shannon': 0.15964540215895556, 'thr_joint_minent': 0.11156731379491946}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 3, 'N': 'inf', 'thr_EUR': 0.148613828256412, 'thr_joint_shannon': 0.17244540983245868, 'thr_joint_minent': 0.13465841269085055}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 5, 'N': 'inf', 'thr_EUR': 0.1650296813155728, 'thr_joint_shannon': 0.18330241271248623, 'thr_joint_minent': 0.15678486619885876}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 7, 'N': 'inf', 'thr_EUR': 0.1730847660919677, 'thr_joint_shannon': 0.18805471618587416, 'thr_joint_minent': 0.16731819783505614}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 9, 'N': 'inf', 'thr_EUR': 0.1779070311599486, 'thr_joint_shannon': 0.19070506837472112, 'thr_joint_minent': 0.17348091405444596}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 11, 'N': 'inf', 'thr_EUR': 0.18114415269010997, 'thr_joint_shannon': 0.19239368606506577, 'thr_joint_minent': 0.177555499200233}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 15, 'N': 'inf', 'thr_EUR': 0.18525932958525954, 'thr_joint_shannon': 0.19442137608154303, 'thr_joint_minent': 0.1826594685583191}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 21, 'N': 'inf', 'thr_EUR': 0.18873753701612805, 'thr_joint_shannon': 0.19601617265402202, 'thr_joint_minent': 0.1869012849146357}
+{'kind': 'asymptotic', 'f': 1.2, 'b': 31, 'N': 'inf', 'thr_EUR': 0.18375627449824916, 'thr_joint_shannon': 0.17993818248256035, 'thr_joint_minent': 0.17993818248256035}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 1, 'N': 'inf', 'thr_EUR': 0.11002786443820345, 'thr_joint_shannon': 0.14644721675413447, 'thr_joint_minent': 0.07578072438934969}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 2, 'N': 'inf', 'thr_EUR': 0.1382872616899313, 'thr_joint_shannon': 0.1680047937332023, 'thr_joint_minent': 0.1178219479002655}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 3, 'N': 'inf', 'thr_EUR': 0.15271820397275598, 'thr_joint_shannon': 0.1773228203259616, 'thr_joint_minent': 0.1389460552613516}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 5, 'N': 'inf', 'thr_EUR': 0.16732245345136162, 'thr_joint_shannon': 0.18584900202883373, 'thr_joint_minent': 0.15922120597688852}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 7, 'N': 'inf', 'thr_EUR': 0.17466526240466304, 'thr_joint_shannon': 0.18975141956760921, 'thr_joint_minent': 0.16898386442822821}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 9, 'N': 'inf', 'thr_EUR': 0.17911031464748484, 'thr_joint_shannon': 0.19197148246952098, 'thr_joint_minent': 0.17473838606063508}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 11, 'N': 'inf', 'thr_EUR': 0.18211438214982562, 'thr_joint_shannon': 0.19340209765813932, 'thr_joint_minent': 0.17856286340313846}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 15, 'N': 'inf', 'thr_EUR': 0.185957355950577, 'thr_joint_shannon': 0.19513647550748978, 'thr_joint_minent': 0.18337792538742048}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 21, 'N': 'inf', 'thr_EUR': 0.18922777991419962, 'thr_joint_shannon': 0.1965137187776978, 'thr_joint_minent': 0.18740185900697343}
+{'kind': 'asymptotic', 'f': 1.0, 'b': 31, 'N': 'inf', 'thr_EUR': 0.18375627449824916, 'thr_joint_shannon': 0.17993818248256035, 'thr_joint_minent': 0.17993818248256035}
+{'kind': 'finite', 'f': 1.2, 'b': 2, 'N': 100000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.13808256707160385, 'thr_joint_minent': 0.09851521391323675}
+{'kind': 'finite', 'f': 1.2, 'b': 3, 'N': 100000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.14062734317597414, 'thr_joint_minent': 0.1239599286491311}
+{'kind': 'finite', 'f': 1.2, 'b': 4, 'N': 100000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.12940977437898055, 'thr_joint_minent': 0.13559643722408282}
+{'kind': 'finite', 'f': 1.2, 'b': 5, 'N': 100000000000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.18207954219121564, 'thr_joint_minent': 0.15659005080907007}
+{'kind': 'finite', 'f': 1.2, 'b': 7, 'N': 100000000000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.18394431729403857, 'thr_joint_minent': 0.16713550808271438}
+{'kind': 'finite', 'f': 1.2, 'b': 9, 'N': 100000000000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.17490998928408474, 'thr_joint_minent': 0.17296221931954722}
+{'kind': 'finite', 'f': 1.2, 'b': 11, 'N': 100000000000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.15375594318443458, 'thr_joint_minent': 0.1765872180023153}
+{'kind': 'finite', 'f': 1.2, 'b': 15, 'N': 100000000000000.0, 'thr_EUR': nan, 'thr_joint_shannon': 0.12010775411679363, 'thr_joint_minent': 0.17528099496700594}
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/joint_thresholds.csv

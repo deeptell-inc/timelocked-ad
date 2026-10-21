@@ -1,0 +1,10 @@
+{'model': 'QCT_joint_shannon_bd_total1e-9', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.18348222639749032} 12s
+{'model': 'QCT_joint_minent_bd_total1e-9', 'N': 100000000000000.0, 'b': 11, 'qber_thr': 0.17658727390192894} 23s
+{'model': 'QCT_joint_minent_bd_postsel', 'N': 100000000000000.0, 'b': 11, 'qber_thr': 0.17524355312370557} 34s
+{'model': 'QCT_joint_minent_bd_postsel', 'N': 100000000000000.0, 'b': 15, 'qber_thr': 0.1601858586497507} 44s
+{'b': 2, 'first_D_with_argmax_below_1': np.float64(0.20600000000000004)}
+{'b': 3, 'first_D_with_argmax_below_1': np.float64(0.22200000000000006)}
+{'b': 5, 'first_D_with_argmax_below_1': np.float64(0.23200000000000007)}
+{'b': 9, 'first_D_with_argmax_below_1': np.float64(0.23900000000000007)}
+{'b': 15, 'first_D_with_argmax_below_1': np.float64(0.24300000000000008)}
+done

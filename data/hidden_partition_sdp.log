@@ -1,0 +1,4 @@
+{'n': 3, 'b': 2, 'D': 0.1, 'c_psi': 0.777778, 'P_ind': 0.81427, 'P_joint_hidden_partition': 0.89379, 'P_adaptive': 0.898136, 'n_povm': 16} 0s
+{'n': 3, 'b': 2, 'D': 0.2, 'c_psi': 0.5, 'P_ind': 0.933013, 'P_joint_hidden_partition': 0.982458, 'P_adaptive': 0.984123, 'n_povm': 16} 0s
+{'n': 4, 'b': 2, 'D': 0.1, 'c_psi': 0.777778, 'P_ind': 0.81427, 'P_joint_hidden_partition': 0.891348, 'P_adaptive': 0.898136, 'n_povm': 64} 11s
+{'n': 4, 'b': 2, 'D': 0.2, 'c_psi': 0.5, 'P_ind': 0.933013, 'P_joint_hidden_partition': 0.981276, 'P_adaptive': 0.984123, 'n_povm': 64} 8s

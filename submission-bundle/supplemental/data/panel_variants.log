@@ -1,0 +1,14 @@
+{'model': 'QCT_joint_shannon_bd_postsel', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.17801869207535073} 18s
+{'model': 'QCT_joint_minent_bd_postsel', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.16669077273886987} 32s
+{'model': 'QCT_individual_shannon_bd_postsel', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.20519545914591256} 53s
+{'model': 'QCT_individual_minent_bd_postsel', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.19704113838591283} 76s
+{'model': 'QCT_joint_shannon_bd_postsel', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.15858781710064618} 89s
+{'model': 'QCT_joint_minent_bd_postsel', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.17251145174189508} 101s
+{'model': 'QCT_individual_shannon_bd_postsel', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.19392017971946043} 156s
+{'model': 'QCT_individual_minent_bd_postsel', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.20613516812203939} 182s
+{'model': 'QCT_individual_shannon_sym_fano', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.2188580627775161} 227s
+{'model': 'QCT_individual_shannon_sym_fano', 'N': 100000000.0, 'b': 3, 'qber_thr': 0.16197725681104644} 272s
+{'model': 'holevo_no_timelock_shannon_bd', 'N': 100000000000000.0, 'b': 5, 'qber_thr': 0.1640317897358222} 281s
+{'model': 'holevo_no_timelock_shannon_bd', 'N': 100000000000000.0, 'b': 7, 'qber_thr': 0.16760651533776322} 295s
+{'model': 'holevo_no_timelock_shannon_bd', 'N': 100000000000000.0, 'b': 9, 'qber_thr': 0.1559295837248179} 308s
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/panel_variants.csv

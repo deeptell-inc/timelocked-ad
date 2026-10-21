@@ -1,0 +1,26 @@
+  seed 0: 0.8825823
+  seed 1: 0.8679424
+  seed 2: 0.8824328
+  seed 3: 0.8651050
+  seed 4: 0.8770228
+  seed 5: 0.8823171
+six-state b=2 mixed, bases+parities hidden: c_psi=0.8 D=0.167  P_achievable>=0.882582  P_ad=0.888642  gap<=6.06e-03
+  seed 0: 0.9386545
+  seed 1: 0.9390920
+  seed 2: 0.9381256
+  seed 3: 0.9163584
+  seed 4: 0.9202904
+  seed 5: 0.9395400
+six-state b=2 mixed, bases+parities hidden: c_psi=0.65 D=0.259  P_achievable>=0.939540  P_ad=0.958291  gap<=1.88e-02
+  K=64 seed 0: 0.6985457
+  K=64 seed 1: 0.7233891
+  K=64 seed 2: 0.8571727
+  K=64 seed 3: 0.8452894
+  K=64 seed 4: 0.8512742
+six-state b=2 mixed both hidden, K=64: c_psi=0.8 D=0.167  P_achievable>=0.857173  P_ad=0.888642  gap<=3.15e-02
+  K=64 seed 0: 0.7153224
+  K=64 seed 1: 0.7609260
+  K=64 seed 2: 0.7853293
+  K=64 seed 3: 0.9077790
+  K=64 seed 4: 0.9045806
+six-state b=2 mixed both hidden, K=64: c_psi=0.65 D=0.259  P_achievable>=0.907779  P_ad=0.958291  gap<=5.05e-02

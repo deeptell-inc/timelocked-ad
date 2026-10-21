@@ -1,0 +1,3 @@
+<stdin>:17: UserWarning: Objective contains too many subexpressions. Consider vectorizing your CVXPY code to speed up compilation.
+c_psi=0.8 D=0.167 parity=(0,) status=optimal P_joint(c known, theta hidden)=0.887814 P_ad=0.888642 mineig=-3.4e-07 t=137s
+c_psi=0.65 D=0.259 parity=(0,) status=optimal P_joint(c known, theta hidden)=0.955554 P_ad=0.958291 mineig=-2.1e-06 t=41s

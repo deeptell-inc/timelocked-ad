@@ -1,0 +1,29 @@
+{'b': 2, 'D': 0.1, 'J_helstrom': 0.499381, 'J_opt': np.float64(0.499381), 'pg_helstrom': 0.81427, 'pg_opt': np.float64(0.845448)} 2s
+{'b': 2, 'D': 0.17, 'J_helstrom': 0.75221, 'J_opt': np.float64(0.752347), 'pg_helstrom': 0.903569, 'pg_opt': np.float64(0.929444)} 2s
+{'b': 2, 'D': 0.2, 'J_helstrom': 0.834407, 'J_opt': np.float64(0.835285), 'pg_helstrom': 0.933013, 'pg_opt': np.float64(0.954182)} 2s
+{'b': 2, 'D': 0.23, 'J_helstrom': 0.900258, 'J_opt': np.float64(0.902103), 'pg_helstrom': 0.957689, 'pg_opt': np.float64(0.973266)} 2s
+{'b': 3, 'D': 0.1, 'J_helstrom': 0.635549, 'J_opt': np.float64(0.635549), 'pg_helstrom': 0.909327, 'pg_opt': np.float64(0.909327)} 3s
+{'b': 3, 'D': 0.17, 'J_helstrom': 0.870413, 'J_opt': np.float64(0.870413), 'pg_helstrom': 0.973897, 'pg_opt': np.float64(0.973897)} 3s
+{'b': 3, 'D': 0.2, 'J_helstrom': 0.929656, 'J_opt': np.float64(0.929656), 'pg_helstrom': 0.987139, 'pg_opt': np.float64(0.987139)} 3s
+{'b': 3, 'D': 0.23, 'J_helstrom': 0.968138, 'J_opt': np.float64(0.968138), 'pg_helstrom': 0.994781, 'pg_opt': np.float64(0.994781)} 2s
+/Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/perprobe_opt.py:30: RuntimeWarning: overflow encountered in matmul
+  l0 = logmult + H @ np.log(np.maximum(q0, 1e-300)); l1 = logmult + H @ np.log(np.maximum(q1, 1e-300))
+/Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/perprobe_opt.py:30: RuntimeWarning: invalid value encountered in matmul
+  l0 = logmult + H @ np.log(np.maximum(q0, 1e-300)); l1 = logmult + H @ np.log(np.maximum(q1, 1e-300))
+{'b': 4, 'D': 0.1, 'J_helstrom': 0.731032, 'J_opt': np.float64(0.731032), 'pg_helstrom': 0.909327, 'pg_opt': np.float64(0.924607)} 8s
+{'b': 4, 'D': 0.17, 'J_helstrom': 0.927581, 'J_opt': np.float64(0.927672), 'pg_helstrom': 0.973897, 'pg_opt': np.float64(0.981242)} 9s
+{'b': 4, 'D': 0.2, 'J_helstrom': 0.966079, 'J_opt': np.float64(0.966316), 'pg_helstrom': 0.987139, 'pg_opt': np.float64(0.991454)} 9s
+{'b': 4, 'D': 0.23, 'J_helstrom': 0.987055, 'J_opt': np.float64(0.987337), 'pg_helstrom': 0.994781, 'pg_opt': np.float64(0.996841)} 9s
+{'b': 5, 'D': 0.1, 'J_helstrom': 0.800925, 'J_opt': np.float64(0.800925), 'pg_helstrom': 0.952454, 'pg_opt': np.float64(0.952454)} 11s
+{'b': 5, 'D': 0.17, 'J_helstrom': 0.960767, 'J_opt': np.float64(0.960767), 'pg_helstrom': 0.99228, 'pg_opt': np.float64(0.99228)} 15s
+{'b': 5, 'D': 0.2, 'J_helstrom': 0.984915, 'J_opt': np.float64(0.984915), 'pg_helstrom': 0.997288, 'pg_opt': np.float64(0.997288)} 13s
+{'b': 5, 'D': 0.23, 'J_helstrom': 0.995617, 'J_opt': np.float64(0.995617), 'pg_helstrom': 0.99929, 'pg_opt': np.float64(0.99929)} 9s
+{'b': 7, 'D': 0.1, 'J_helstrom': 0.88906, 'J_opt': np.float64(0.88906), 'pg_helstrom': 0.974196, 'pg_opt': np.float64(0.974196)} 42s
+{'b': 7, 'D': 0.17, 'J_helstrom': 0.987724, 'J_opt': np.float64(0.987724), 'pg_helstrom': 0.997619, 'pg_opt': np.float64(0.997619)} 47s
+{'b': 7, 'D': 0.2, 'J_helstrom': 0.996641, 'J_opt': np.float64(0.996641), 'pg_helstrom': 0.999402, 'pg_opt': np.float64(0.999402)} 44s
+{'b': 7, 'D': 0.23, 'J_helstrom': 0.999371, 'J_opt': np.float64(0.999371), 'pg_helstrom': 0.999899, 'pg_opt': np.float64(0.999899)} 44s
+{'b': 9, 'D': 0.1, 'J_helstrom': 0.93737, 'J_opt': np.float64(0.93737), 'pg_helstrom': 0.985704, 'pg_opt': np.float64(0.985704)} 146s
+{'b': 9, 'D': 0.17, 'J_helstrom': 0.996081, 'J_opt': np.float64(0.996081), 'pg_helstrom': 0.999248, 'pg_opt': np.float64(0.999248)} 188s
+{'b': 9, 'D': 0.2, 'J_helstrom': 0.999235, 'J_opt': np.float64(0.999235), 'pg_helstrom': 0.999865, 'pg_opt': np.float64(0.999865)} 170s
+{'b': 9, 'D': 0.23, 'J_helstrom': 0.999908, 'J_opt': np.float64(0.999908), 'pg_helstrom': 0.999985, 'pg_opt': np.float64(0.999985)} 146s
+wrote /Users/deeptell01/Documents/alterego/personal/qcrypt/impl/qct_ad/../../data/perprobe_opt.csv

@@ -1,0 +1,16 @@
+  b=3 c_psi=0.8 seed 0: 0.927440  (16s)
+  b=3 c_psi=0.8 seed 1: 0.927490  (33s)
+  b=3 c_psi=0.8 seed 2: 0.927437  (49s)
+six-state b=3 mixed, bases+parities hidden: c_psi=0.8 D=0.167  P_achievable>=0.927490  P_ad=0.930052  err_ratio<=1.0366
+  b=3 c_psi=0.65 seed 0: 0.973555  (17s)
+  b=3 c_psi=0.65 seed 1: 0.973201  (33s)
+  b=3 c_psi=0.65 seed 2: 0.973417  (50s)
+six-state b=3 mixed, bases+parities hidden: c_psi=0.65 D=0.259  P_achievable>=0.973555  P_ad=0.981566  err_ratio<=1.4346
+  b=2 c_psi=0.8 seed 0: 0.882586  (0s)
+  b=2 c_psi=0.8 seed 1: 0.882450  (0s)
+  b=2 c_psi=0.8 seed 2: 0.882393  (1s)
+six-state b=2 mixed, bases+parities hidden: c_psi=0.8 D=0.167  P_achievable>=0.882586  P_ad=0.888642  err_ratio<=1.0544
+  b=2 c_psi=0.65 seed 0: 0.927325  (0s)
+  b=2 c_psi=0.65 seed 1: 0.939090  (0s)
+  b=2 c_psi=0.65 seed 2: 0.938578  (1s)
+six-state b=2 mixed, bases+parities hidden: c_psi=0.65 D=0.259  P_achievable>=0.939090  P_ad=0.958291  err_ratio<=1.4604

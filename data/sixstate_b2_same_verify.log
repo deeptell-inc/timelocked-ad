@@ -1,0 +1,4 @@
+<stdin>:23: RuntimeWarning: divide by zero encountered in matmul
+<stdin>:23: RuntimeWarning: overflow encountered in matmul
+<stdin>:23: RuntimeWarning: invalid value encountered in matmul
+SCS: status=optimal value=0.888644 recomputed=0.888644 ||sumM-I||=1.00e-08 min eig=-5.16e-07 P_ad=0.888642 t=2s

@@ -1,0 +1,14 @@
+b=4 D=0.1: ansatz best 0.9653167166  P_ad 0.9653171953  gap 4.79e-07
+b=4 D=0.2: ansatz best 0.9990222701  P_ad 0.9990224820  gap 2.12e-07
+b=5 D=0.1: ansatz best 0.9793090710  P_ad 0.9793190195  gap 9.95e-06
+b=5 D=0.2: ansatz best 0.9997548980  P_ad 0.9997557997  gap 9.02e-07
+polish b=5 D=0.1 round 0: 0.9793134275 P_ad 0.9793190195 gap 5.59e-06
+polish b=5 D=0.1 round 1: 0.9793143871 P_ad 0.9793190195 gap 4.63e-06
+polish b=5 D=0.1 round 2: 0.9793150092 P_ad 0.9793190195 gap 4.01e-06
+polish b=5 D=0.1 round 3: 0.9793155251 P_ad 0.9793190195 gap 3.49e-06
+polish b=5 D=0.1 round 4: 0.9793161639 P_ad 0.9793190195 gap 2.86e-06
+polish b=5 D=0.1 round 5: 0.9793167757 P_ad 0.9793190195 gap 2.24e-06
+b=6 D=0.2: ansatz best 0.9999319140  P_ad 0.9999389611  gap 7.05e-06  (22s)
+b=6 D=0.1: ansatz best 0.9875612525  P_ad 0.9875941112  gap 3.29e-05  (28s)
+b=7 D=0.2: ansatz best 0.9999586726  P_ad 0.9999847410  gap 2.61e-05  (75s)
+b=7 D=0.1: ansatz best 0.9924692826  P_ad 0.9925325438  gap 6.33e-05  (88s)

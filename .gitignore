@@ -1,0 +1,20 @@
+.DS_Store
+.claude/
+__pycache__/
+.pytest_cache/
+*.pyc
+texput.log
+# LaTeX build products (main.pdf is kept)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+mainNotes.bib
+# data logs are kept (they are referenced by data-manifest.md)
+!data/*.log
+!preprint-bundle/anc/data/*.log
+!submission-bundle/supplemental/data/*.log
