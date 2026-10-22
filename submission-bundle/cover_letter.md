@@ -19,7 +19,7 @@ Two by-products may be useful to practitioners: the key-length formula of Trepli
 
 Several recent proposals rely on encrypting or delaying the post-processing of QKD; this paper delimits what such a step can and cannot buy for qubit protocols, settles the parity announcement with a theorem, and reduces the partition announcement to a precisely stated open question. The main theorem is also a self-contained statement about state discrimination with post-measurement information that may interest readers outside QKD.
 
-The manuscript has not been published and is not under consideration elsewhere. The code and data that produce every number are provided as Supplemental Material and at https://github.com/deeptell-inc/timelocked-ad. I have no competing interests.
+The manuscript has not been published and is not under consideration elsewhere. The code and data that produce every number are publicly available in a citable repository (reference [Wak26] of the manuscript, https://github.com/deeptell-inc/timelocked-ad). I have no competing interests.
 
 Suggested referees are listed on the submission form (see `suggested_referees.md`).
 

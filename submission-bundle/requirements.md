@@ -7,7 +7,7 @@
 | 3 | 要旨: 単一段落、数式・引用は最小限、簡潔 | 295 語・単一段落、引用 1 件（[T25]） | OK |
 | 4 | 本文: 節構成、式番号、図表番号の参照整合 | hyperref で全参照解決（undefined 0）、図 1–3・表 I–IV | OK |
 | 5 | 図: 個別ファイル（PDF/EPS）、印刷で判読可能、カラー可 | `figures/fig2_eve_info.pdf`, `fig3_rate_vs_qber.pdf`, `fig4_threshold_vs_b.pdf`（ベクタ PDF） | OK |
-| 6 | 参考文献: 著者・誌名・巻・頁・年（APS 形式、題名任意） | `thebibliography` 39 件、全て本文で引用、arXiv 番号併記 | OK |
+| 6 | 参考文献: 著者・誌名・巻・頁・年（APS 形式、題名任意） | `thebibliography` 40 件、全て本文で引用、arXiv 番号併記 | OK |
 | 7 | 補足資料（Supplemental Material）: 別ファイル、本文から参照 | `supplemental_material.zip`（code + data + README）；本文 §V/§VI で「deterministic Python module」として言及、Declarations で明示 | OK |
 | 8 | 投稿衛生: 改訂履歴・撤回数値・査読者言及なし（CLAUDE.md 規則） | grep（corrected / earlier revision / previously reported / referee / phase-1 / conjectur*）該当なし | OK |
 | 9 | 二重投稿なし、プレプリント方針（arXiv 可） | カバーレターに arXiv 番号欄；APS はプレプリント公開を許容 | **arXiv 番号要記入** |
@@ -15,3 +15,4 @@
 | 11 | 宣言: 利益相反、資金、データ可用性、倫理 | `declarations.md` | OK（資金・ORCID 要記入） |
 | 12 | 長さ制限 | Regular Article に制限なし（14 頁） | OK |
 | 13 | 数値の事実ゲート（S17） | S11 ゲートと同一の `main.tex`（差分なし）を再検証 | OK（下記ログ） |
+| 14 | Data Availability Statement（APS 必須: 公開データ・ソフトは参考文献に引用し、永続識別子（DOI 推奨）を付す；Supplemental Material はデータ共有手段として非推奨） | 原稿 Appendix A 直前の DAS 段落＋参考文献 [Wak26]（GitHub、Zenodo DOI は要取得）；declarations.md に投稿フォーム用文面 | **Zenodo DOI 要取得・記入** |
