@@ -34,4 +34,8 @@ Requirements: numpy, scipy, matplotlib, mpmath; cvxpy (CLARABEL/SCS) for the SDP
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI is assigned to each tagged release.
+See `CITATION.cff`; cite the tagged release (v2.1).
+
+## License
+
+Code: MIT (`LICENSE`). Data, figures and manuscript: CC BY 4.0 (`LICENSE-DATA`).

@@ -15,4 +15,4 @@
 | 11 | 宣言: 利益相反、資金、データ可用性、倫理 | `declarations.md` | OK（資金・ORCID 要記入） |
 | 12 | 長さ制限 | Regular Article に制限なし（14 頁） | OK |
 | 13 | 数値の事実ゲート（S17） | S11 ゲートと同一の `main.tex`（差分なし）を再検証 | OK（下記ログ） |
-| 14 | Data Availability Statement（APS 必須: 公開データ・ソフトは参考文献に引用し、永続識別子（DOI 推奨）を付す；Supplemental Material はデータ共有手段として非推奨） | 原稿 Appendix A 直前の DAS 段落＋参考文献 [Wak26]（GitHub、Zenodo DOI は要取得）；declarations.md に投稿フォーム用文面 | **Zenodo DOI 要取得・記入** |
+| 14 | Data Availability Statement（APS 必須: 公開データ・ソフトは参考文献に引用し、永続識別子（DOI 推奨）を付す；Supplemental Material はデータ共有手段として非推奨） | 原稿 Appendix A 直前の DAS 段落＋参考文献 [Wak26]（GitHub release v2.1、DOI なし）；declarations.md に投稿フォーム用文面 | OK（DOI は任意、編集部要求時に Zenodo で付与） |

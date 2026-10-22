@@ -1,6 +1,6 @@
 ---
 asset: manuscript
-version: 2.1.2
+version: 2.1.3
 生成元入力: manuscript-v1.3.0.md, manuscript-REVIEW.md v2.0.0（nature-panel-review セット 1）, data/panel_variants.csv, perprobe_opt.csv, hidden_partition_sdp.csv, asymptotic_thresholds_mp.csv, impl-report.md, data/*.csv, vault notes（Bae–Acín 2007, Acín et al. 2006）
 依存工程: S18（S7 改訂）, S3, S5, S6, S15
 生成日: 2026-10-09
@@ -220,7 +220,7 @@ where the last term is present only for even $b$ and accounts for ties broken at
 - [EMV03] Y. C. Eldar, A. Megretski, G. C. Verghese, Designing optimal quantum detectors via semidefinite programming, IEEE Trans. Inf. Theory 49, 1007 (2003).
 - [KRS09] R. König, R. Renner, C. Schaffner, The operational meaning of min- and max-entropy, IEEE Trans. Inf. Theory 55, 4337 (2009).
 - [Win16] A. Winter, Tight uniform continuity bounds for quantum entropies: conditional entropy, relative entropy distance and energy constraints, Commun. Math. Phys. 347, 291 (2016).
-- [Wak26] H. Wakaura, timelocked-ad: code and data for "Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD?", Version 2.1, [Software and Dataset], GitHub/Zenodo, 2026, https://github.com/deeptell-inc/timelocked-ad (DOI to be assigned on release).
+- [Wak26] H. Wakaura, timelocked-ad: code and data for "Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD?", Version 2.1, [Software and Dataset], GitHub, 2026, https://github.com/deeptell-inc/timelocked-ad (release v2.1).
 - [Levitin95] L. B. Levitin, Optimal quantum measurements for two pure and mixed states, in Quantum Communications and Measurement, edited by V. P. Belavkin, O. Hirota, R. L. Hudson (Plenum, New York, 1995), p. 439.
 - [Fuchs96] C. A. Fuchs, Distinguishability and accessible information in quantum theory, PhD thesis, University of New Mexico (1996); arXiv:quant-ph/9601020.
 - [CKR09] M. Christandl, R. König, R. Renner, Postselection technique for quantum channels with applications to quantum cryptography, Phys. Rev. Lett. 102, 020504 (2009).

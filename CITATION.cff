@@ -9,6 +9,7 @@ authors:
     given-names: Hikaru
     email: h.wakaura@qiri.co.jp
     affiliation: "QIRI (Quantum Integrated Research Institute Inc.), Tokyo, Japan"
+license: MIT
 repository-code: "https://github.com/deeptell-inc/timelocked-ad"
 keywords:
   - quantum key distribution
