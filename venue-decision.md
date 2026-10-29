@@ -1,6 +1,6 @@
 ---
 asset: venue-decision
-version: 1.1.0
+version: 1.3.0
 生成元入力: theme-brief.md v1.0.0, manuscript.md v0.9.0, manuscript-REVIEW.md v1.0.0
 依存工程: S10（S4, S9, S18 後）
 生成日: 2026-10-09
@@ -29,3 +29,21 @@ version: 1.1.0
 ## 決定の確定（2026-10-15）
 - ユーザー決定: **Physical Review A（Regular Article）**。定理 1 を得た後も PRA を維持（Bae–Acín / Acín et al. への応答という位置付けを優先）。不採択時の第 2 候補は Quantum。
 - S12 実施: submission-bundle/（main.tex、figures/、supplemental_material.zip、cover_letter.md、suggested_referees.md、declarations.md、requirements.md）。
+
+## PRA 不採択と再決定（2026-10-29）
+- 結果: PRA 編集部より査読前不採択（AX13009、"not suitable for in-depth review"、APS 内に他誌の提案なし）。技術的指摘なし。
+- 診断（pra-fit スクリプト、paper/main.tex）: タイトル 21 語・疑問文＋コロン（FAIL）、要旨 298 語（PRA 中央値 161、FAIL）、物理プラットフォーム・実現可能性の言及 0（FAIL）。純粋な情報理論の負の結果で、過去の "APS 外の専門誌向け" 判定（qnet #1）と同型。
+- 開示義務: 今後 APS 誌に再投稿する場合は AX13009 の投稿歴をカバーレターに明記する。
+- 次候補:
+  | 候補 | 要件 | 判断 |
+  |---|---|---|
+  | Quantum | arXiv 掲載が投稿の前提（arXiv ID で投稿）。quantumarticle クラス、APC 任意 | 第 1 候補だが arXiv 投稿制限が解けるまで保留 |
+  | New J. Phys. | IOP テンプレート、APC 必要、プレプリント可（Research Square で可） | arXiv 制限中の第 1 候補 |
+  | J. Phys. A | BAL11（本稿の主要対話相手）の掲載誌。IOP、購読誌（APC 不要） | 第 2 候補。無料で出せる |
+  | Quantum Inf. Process. | Springer、購読誌 | 予備 |
+- 共通の改稿: タイトルを名詞句に短縮、要旨を ≤200 語に圧縮（主張 1 つ）。実現可能性の節は Quantum/IOP では必須でないが、§6 の実装節を保つ。
+
+## 決定の再確定（2026-10-29）
+- ユーザー決定: **J. Phys. A: Mathematical and Theoretical（Paper、Quantum Information and Computation）**。理由: BAL11 の掲載誌で対話が自然、購読誌で APC 不要、プレプリントは Research Square で可、arXiv 不要。
+- 改稿: 題名を名詞句 11 語に（"Timelocked advantage distillation and the 20% barrier of quantum key distribution"）、要旨を 229 語・引用なしに（IOP 上限 300 語）。本文・数値は不変（v2.2.0）。
+- S12 再実行: submission-bundle-jpa/（format-free 用 12 pt 単段 PDF 31 頁、main.tex、figures/、supplemental_material.zip、cover_letter.md、suggested_referees.md、declarations.md、requirements.md）。

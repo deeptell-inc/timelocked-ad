@@ -2,7 +2,7 @@
 
 Code, data and manuscript source for
 
-> H. Wakaura, *Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD? Timelocked advantage distillation and the 20% barrier* (2026).
+> H. Wakaura, *Timelocked advantage distillation and the 20% barrier of quantum key distribution* (2026).
 
 The paper asks what a quantum computational timelock on the post-processing announcements of decoy-state BB84 with advantage distillation can buy, treating the parities, the block partition and the bases separately. Theorem 1 shows that hiding the parities does not change the adversary's guessing probability; the finite-key thresholds are computed for Bell-diagonal collective attacks in two entropy accountings.
 

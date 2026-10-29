@@ -1,3 +1,6 @@
+Title: timelocked-ad code and data
+Description: Deterministic Python code, result files and Markdown source behind every table and figure of the manuscript; run tests/test_skl.py and reproduce.py to regenerate the thresholds.
+
 # Preprint bundle (S11) — arXiv quant-ph
 
 Generated 2026-10-09 from manuscript.md v1.1.0 via `anc/code/md2tex.py` (revtex4-2).

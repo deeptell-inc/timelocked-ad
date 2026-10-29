@@ -1,17 +1,17 @@
 ---
 asset: manuscript
-version: 2.1.3
+version: 2.2.0
 生成元入力: manuscript-v1.3.0.md, manuscript-REVIEW.md v2.0.0（nature-panel-review セット 1）, data/panel_variants.csv, perprobe_opt.csv, hidden_partition_sdp.csv, asymptotic_thresholds_mp.csv, impl-report.md, data/*.csv, vault notes（Bae–Acín 2007, Acín et al. 2006）
 依存工程: S18（S7 改訂）, S3, S5, S6, S15
 生成日: 2026-10-09
-事実ゲート: S17 適用（claims-ledger.md）; S16 1周（S18 手順 4）
+事実ゲート: S17 適用（claims-ledger.md）; S16 2周（S18 手順 4; 2026-10-29 題名・要旨を J. Phys. A 向けに改稿、数値不変）
 ---
 
-# Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD? Timelocked advantage distillation and the 20% barrier
+# Timelocked advantage distillation and the 20% barrier of quantum key distribution
 
 ## Abstract
 
-Advantage distillation (AD) raises the finite-key threshold QBER of decoy-state BB84 from 9.5% to 17.3% [T25]; asymptotically two-way post-processing tolerates 20%, and Bae and Acín showed that an adversary who stores her probes until the AD parities are announced attains this limit, while one forced to measure each probe beforehand is held off until the 25% entanglement limit. We ask what a quantum computational timelock on the post-processing announcements can buy for this protocol, treating the parities, the block partition and the bases separately. Hiding the parities buys nothing: we prove that for every block size the best measurement made before the parities are known attains the adaptive Helstrom value, so the key length in the min-entropy accounting is the collective-attack value, 17.66% at $10^{14}$ pulses against the 17.30% certified by the entropic-uncertainty bound of Ref. [T25]. Hiding the partition is different: the protocol of Ref. [T25] partitions the sifted key at random after the quantum phase, so an adversary whose memory is shorter than the time between the probes of a block cannot bring them together. Modelling her by role-blind per-probe measurements, an assumption we state rather than derive, the Helstrom benchmark, which a numerical search over identical measurements does not improve at odd block sizes, gives 20.8% (Shannon) and 20.7% (min-entropy) at $b=9$, 19.4% and 20.6% in a post-selection sensitivity check, with 25% as asymptote. Whether a memory holding many probes without the partition can do better is open; at up to six probes a joint measurement recovers most of the adaptive value, so at these sizes the gain rests on locality. Hiding the basis leaves the BB84 guessing probability unchanged at one- and two-bit blocks and, for six-state, shrinks the memoryless gain by an order of magnitude at two- and three-bit blocks.
+Advantage distillation raises the finite-key threshold quantum bit error rate of decoy-state BB84 from 9.5% to 17.3%; asymptotically two-way post-processing tolerates 20%, and Bae and Acín observed that an eavesdropper forced to measure her probes before the distillation parities are announced is held off until the 25% entanglement limit. We determine what a quantum computational timelock on the post-processing announcements buys for this protocol, treating the parities, the block partition and the bases separately. Hiding the parities buys nothing: we prove that for every block size the best measurement made before the parities are known attains the adaptive Helstrom value, so the min-entropy key length is the collective-attack value, 17.66% at $10^{14}$ pulses against the 17.30% certified by the entropic uncertainty relation. Hiding the block partition is different, because the partition is drawn at random after the quantum phase: an eavesdropper whose memory does not span a block, modelled by per-probe measurements under a stated assumption, is held to 20.7–20.8% at nine-bit blocks with 25% as asymptote, whereas a joint measurement on up to six probes recovers most of the adaptive value. Hiding the basis leaves the BB84 guessing probability unchanged at one- and two-bit blocks and shrinks the six-state memoryless gain by an order of magnitude once blocks are formed. Any gain therefore rests on the locality of the eavesdropper's memory, not on the secrecy of the parities.
 
 ## 1. Introduction
 
@@ -220,7 +220,7 @@ where the last term is present only for even $b$ and accounts for ties broken at
 - [EMV03] Y. C. Eldar, A. Megretski, G. C. Verghese, Designing optimal quantum detectors via semidefinite programming, IEEE Trans. Inf. Theory 49, 1007 (2003).
 - [KRS09] R. König, R. Renner, C. Schaffner, The operational meaning of min- and max-entropy, IEEE Trans. Inf. Theory 55, 4337 (2009).
 - [Win16] A. Winter, Tight uniform continuity bounds for quantum entropies: conditional entropy, relative entropy distance and energy constraints, Commun. Math. Phys. 347, 291 (2016).
-- [Wak26] H. Wakaura, timelocked-ad: code and data for "Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD?", Version 2.1, [Software and Dataset], GitHub, 2026, https://github.com/deeptell-inc/timelocked-ad (release v2.1).
+- [Wak26] H. Wakaura, timelocked-ad: code and data for "Timelocked advantage distillation and the 20% barrier of quantum key distribution", Version 2.1, [Software and Dataset], GitHub, 2026, https://github.com/deeptell-inc/timelocked-ad (release v2.1).
 - [Levitin95] L. B. Levitin, Optimal quantum measurements for two pure and mixed states, in Quantum Communications and Measurement, edited by V. P. Belavkin, O. Hirota, R. L. Hudson (Plenum, New York, 1995), p. 439.
 - [Fuchs96] C. A. Fuchs, Distinguishability and accessible information in quantum theory, PhD thesis, University of New Mexico (1996); arXiv:quant-ph/9601020.
 - [CKR09] M. Christandl, R. König, R. Renner, Postselection technique for quantum channels with applications to quantum cryptography, Phys. Rev. Lett. 102, 020504 (2009).

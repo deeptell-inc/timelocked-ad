@@ -160,3 +160,13 @@ version: 0.3.0
 - arXiv は投稿制限中のため、プレプリントは Research Square に掲載（https://doi.org/10.21203/rs.3.rs-11453979/v1、2026-10-22、CC BY 4.0；Crossref で確認）。カバーレター・declarations・requirements の arXiv 番号欄を同 DOI に置換。preprint-bundle/ は制限解除後の arXiv 用にそのまま保持。
 - リポジトリ deeptell-inc/timelocked-ad は public 化済み（確認 2026-10-29）。
 - 残り（ユーザー作業）: declarations.md の Funding・ORCID、推薦査読者の確認、APS 投稿。
+
+## S10 再実行: PRA 不採択（2026-10-29）
+- PRA 査読前不採択（AX13009、技術的指摘なし、APS 内に代替誌なし）。venue-decision.md v1.2.0 に診断と次候補を記録。
+- 次工程: ユーザーが投稿先を選択 → タイトル・要旨の改稿（S16）→ 選択誌のテンプレートへ移植 → S12 再実行（カバーレター改訂、過去投稿歴の開示）。
+
+## J. Phys. A 向け改稿と S12 再実行（2026-10-29）
+- 原稿 v2.2.0（-v2.1.3 スナップショット）: 題名・要旨のみ改稿（要旨 229 語、文献引用なし）。本文・表・図・数値は v2.1.3 と同一（S17 継承、新規 claim なし）。[Wak26] の題名も更新。
+- paper/main.tex 再生成・再コンパイル（14 頁、未定義参照 0、投稿衛生 grep 0）。3 か所の main.tex・両バンドルの manuscript.md・arxiv-src.tar.gz・supplemental_material.zip・README.md・CITATION.cff・arxiv-metadata.txt（題名・要旨）を同期。
+- submission-bundle-jpa/: IOP format-free 用に `preprint,12pt` 単段で組版した main.pdf（31 頁）、カバーレター（BAL11 への接続を明記）、宣言（Research Square プレプリントは旧題名と注記）、要件表 11 項目。
+- 残り（ユーザー作業）: declarations.md の Funding・ORCID、推薦査読者の確認、ScholarOne で PDF＋補足 zip を投稿。

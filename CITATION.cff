@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "timelocked-ad: code and data for 'Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD? Timelocked advantage distillation and the 20% barrier'"
+title: "timelocked-ad: code and data for 'Timelocked advantage distillation and the 20% barrier of quantum key distribution'"
 type: software
 version: "2.1"
 date-released: "2026-10-22"

@@ -1,7 +1,7 @@
 """Build paper/main.tex from manuscript.md (revtex4-2). Run from the project root: python3 paper/md2tex.py"""
 import re, os
 md=open('manuscript.md').read()
-body=md[md.find('# Does hiding'):]
+body=md[md.find('\n# ')+1:]
 title=body.splitlines()[0][2:]
 secs=re.split(r'\n## ', body)
 S={}
