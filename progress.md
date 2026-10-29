@@ -155,3 +155,8 @@ version: 0.3.0
 - 原稿 v2.1.2: DAS 段落を APS 例文形式に統一し、参考文献 [Wak26]（Software and Dataset）を追加。declarations.md に投稿フォーム用文面、requirements.md に DAS 行（14）、CITATION.cff 追加。
 - 原稿 v2.1.3（14 頁、エラーなし）: LICENSE（MIT、コード）・LICENSE-DATA（CC BY 4.0、データ・図・原稿）を追加。GitHub release v2.1 を作成し、[Wak26] と declarations の DAS はこの release（DOI なし）を指す。編集部が DOI を要求した場合は Zenodo 連携を有効化して release を再発行する。両バンドル再作成、push 済（最終コミット d311bd6）。
 - 残り（ユーザー作業）: arXiv アップロード → 番号をカバーレター・宣言に記入、declarations.md の Funding・ORCID、推薦査読者 6 名の確認、APS 投稿、投稿時にリポジトリを public 化。次工程は S14（査読到着後）。
+
+## プレプリント掲載先の変更（2026-10-29）
+- arXiv は投稿制限中のため、プレプリントは Research Square に掲載（https://doi.org/10.21203/rs.3.rs-11453979/v1、2026-10-22、CC BY 4.0；Crossref で確認）。カバーレター・declarations・requirements の arXiv 番号欄を同 DOI に置換。preprint-bundle/ は制限解除後の arXiv 用にそのまま保持。
+- リポジトリ deeptell-inc/timelocked-ad は public 化済み（確認 2026-10-29）。
+- 残り（ユーザー作業）: declarations.md の Funding・ORCID、推薦査読者の確認、APS 投稿。

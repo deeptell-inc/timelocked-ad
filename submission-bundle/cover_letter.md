@@ -3,7 +3,7 @@
 **To:** The Editors, Physical Review A
 **Manuscript:** "Does hiding the post-processing from a memory-limited eavesdropper raise the noise tolerance of QKD? Timelocked advantage distillation and the 20% barrier"
 **Author:** Hikaru Wakaura, QIRI (Quantum Integrated Research Institute Inc.), Tokyo, Japan (h.wakaura@qiri.co.jp)
-**Preprint:** arXiv:<<XXXX.XXXXX>> [quant-ph]
+**Preprint:** Research Square, https://doi.org/10.21203/rs.3.rs-11453979/v1 (posted 22 October 2026, CC BY 4.0)
 
 Dear Editors,
 
