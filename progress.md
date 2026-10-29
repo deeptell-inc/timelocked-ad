@@ -149,3 +149,9 @@ version: 0.3.0
 
 ## DAS 更新（2026-10-21）
 - GitHub リポジトリ https://github.com/deeptell-inc/timelocked-ad（private、arXiv 投稿時に public 化）を作成。原稿 v2.1.1 に Data availability 段落（Appendix A 直前）、declarations・カバーレター・arXiv メタデータ・README に反映。両バンドル再作成。
+- LaTeX ソース（3 か所の main.tex、arxiv-src.tar.gz）は追跡解除し `.gitignore` に追加（ユーザー指示）。ローカルには残存。
+
+## DAS を APS 形式へ、ライセンスと release（2026-10-22）
+- 原稿 v2.1.2: DAS 段落を APS 例文形式に統一し、参考文献 [Wak26]（Software and Dataset）を追加。declarations.md に投稿フォーム用文面、requirements.md に DAS 行（14）、CITATION.cff 追加。
+- 原稿 v2.1.3（14 頁、エラーなし）: LICENSE（MIT、コード）・LICENSE-DATA（CC BY 4.0、データ・図・原稿）を追加。GitHub release v2.1 を作成し、[Wak26] と declarations の DAS はこの release（DOI なし）を指す。編集部が DOI を要求した場合は Zenodo 連携を有効化して release を再発行する。両バンドル再作成、push 済（最終コミット d311bd6）。
+- 残り（ユーザー作業）: arXiv アップロード → 番号をカバーレター・宣言に記入、declarations.md の Funding・ORCID、推薦査読者 6 名の確認、APS 投稿、投稿時にリポジトリを public 化。次工程は S14（査読到着後）。
