@@ -170,3 +170,6 @@ version: 0.3.0
 - paper/main.tex 再生成・再コンパイル（14 頁、未定義参照 0、投稿衛生 grep 0）。3 か所の main.tex・両バンドルの manuscript.md・arxiv-src.tar.gz・supplemental_material.zip・README.md・CITATION.cff・arxiv-metadata.txt（題名・要旨）を同期。
 - submission-bundle-jpa/: IOP format-free 用に `preprint,12pt` 単段で組版した main.pdf（31 頁）、カバーレター（BAL11 への接続を明記）、宣言（Research Square プレプリントは旧題名と注記）、要件表 11 項目。
 - 残り（ユーザー作業）: declarations.md の Funding・ORCID、推薦査読者の確認、ScholarOne で PDF＋補足 zip を投稿。
+
+## release v2.2（2026-10-29）
+- GitHub release v2.2（https://github.com/deeptell-inc/timelocked-ad/releases/tag/v2.2、J. Phys. A 投稿版 v2.2.0 のスナップショット）をユーザーが作成。原稿の [Wak26] はコード・データ不変のため release v2.1 を引用したまま。
