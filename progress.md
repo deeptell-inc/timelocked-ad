@@ -190,3 +190,4 @@ version: 0.3.0
 - ユーザー決定: Funding は none、AI ツール利用の記載を本文に入れる。`make_qip_tex.py` の `FUNDING` / `AI_USE` を設定し、submission-bundle-qip/main.tex・main.pdf を再生成（32 頁、未定義参照 0、投稿衛生 grep 0）。"Statements and Declarations" 節は Competing interests、Funding、Data availability、Author contributions、Use of AI tools の 5 段落。declarations.md・requirements.md を更新。
 - 残り（ユーザー作業）: ORCID（任意）、推薦査読者のメール、Springer の投稿システムで投稿。
 - 推薦査読者 6 名の所属機関メールを所属機関ページ・論文の責任著者欄から確認し、出典付きで suggested_referees.md に記載（Leverrier は連絡先ページの書式 "firstname.name@inria.fr" からの組み立て）。残り（ユーザー作業）: 候補の利益相反確認、ORCID（任意）、Springer の投稿システムで投稿。
+- 推薦査読者リスト（3 バンドルの suggested_referees.md）を追跡解除し `.gitignore` に追加（ユーザー指示、2026-11-12）。ローカルには残存。過去のコミット履歴には残っている（履歴の書き換えは未実施）。
