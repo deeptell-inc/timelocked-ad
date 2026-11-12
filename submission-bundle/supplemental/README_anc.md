@@ -1,5 +1,8 @@
 Title: timelocked-ad code and data
 Description: Deterministic Python code, result files and Markdown source behind every table and figure of the manuscript; run tests/test_skl.py and reproduce.py to regenerate the thresholds.
+Article: Parity-independent optimal eavesdropping on advantage distillation in quantum key distribution
+Journal: Quantum Information Processing
+Author: Hikaru Wakaura, QIRI (Quantum Integrated Research Institute Inc.), Tokyo, Japan; h.wakaura@qiri.co.jp
 
 # Preprint bundle (S11) — arXiv quant-ph
 

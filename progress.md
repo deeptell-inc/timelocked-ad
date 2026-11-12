@@ -173,3 +173,15 @@ version: 0.3.0
 
 ## release v2.2（2026-10-29）
 - GitHub release v2.2（https://github.com/deeptell-inc/timelocked-ad/releases/tag/v2.2、J. Phys. A 投稿版 v2.2.0 のスナップショット）をユーザーが作成。原稿の [Wak26] はコード・データ不変のため release v2.1 を引用したまま。
+
+## S10 再実行: J. Phys. A 不採択（2026-11-12）
+- J. Phys. A 査読前不採択（JPhysA-126466、定型文、技術的指摘なし）。venue-decision.md v1.4.0 に 2 誌の共通点と次の選択肢（A: 現行版を別誌へ / B: 定理 1 を主語に再構成）を記録。
+- 次工程: ユーザーが経路と投稿先を選択 → （B の場合）題名・要旨・§1 の再構成（S16、数値不変）→ S12 再実行。
+
+## 定理 1 を主語に再構成、QIP 向け S12 再実行（2026-11-12）
+- 原稿 v2.3.0（-v2.2.0 スナップショット）: 題名・要旨（219 語）・§1（冒頭段落の新設、AD 史段落の重複削除、寄与 (i)–(v) の順を定理 1 先頭に）・§8 冒頭を改稿。§2–§7・付録はバイト一致、印字数値の集合は不変（機械照合）。文献 40 件を初出順に並べ替え。[Wak26] の題名も更新。
+- paper/main.tex 再生成・再コンパイル（14 頁、未定義参照 0、投稿衛生 grep 0）。preprint-bundle（main.tex・main.pdf・anc/manuscript.md・arxiv-metadata.txt・arxiv-src.tar.gz）、README.md、CITATION.cff、submission-bundle/supplemental（manuscript.md・README_anc.md）を同期。
+- submission-bundle-qip/: `make_qip_tex.py`（paper/main.tex → 12 pt 単段、キーワード、Statements and Declarations 節、FUNDING / AI_USE 変数）、main.pdf（32 頁）、figures/、ESM_1.zip、cover_letter.md、declarations.md、requirements.md（14 項目）、suggested_referees.md。
+- submission-bundle/（PRA）と submission-bundle-jpa/（J. Phys. A）の main.tex・main.pdf・カバーレター類は不採択済み投稿の記録として据え置き。
+- S17: 新規の数値 claim なし。新しい表現（「全パリティ類の Helstrom 測定が両立」「2^{b-1} 個の Pauli 作用素による軌道」「b≤4 で SDP と一致、b≤9 で 1e-14」）は §3・付録 A の既存記述の言い換え。
+- 残り（ユーザー作業）: declarations.md の Funding・ORCID・AI ツール利用の記載の判断、推薦査読者のメール、Springer の投稿システムで main.tex＋figures＋main.pdf＋ESM_1.zip を投稿。

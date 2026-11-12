@@ -1,6 +1,6 @@
 ---
 asset: venue-decision
-version: 1.3.0
+version: 1.5.0
 生成元入力: theme-brief.md v1.0.0, manuscript.md v0.9.0, manuscript-REVIEW.md v1.0.0
 依存工程: S10（S4, S9, S18 後）
 生成日: 2026-10-09
@@ -47,3 +47,20 @@ version: 1.3.0
 - ユーザー決定: **J. Phys. A: Mathematical and Theoretical（Paper、Quantum Information and Computation）**。理由: BAL11 の掲載誌で対話が自然、購読誌で APC 不要、プレプリントは Research Square で可、arXiv 不要。
 - 改稿: 題名を名詞句 11 語に（"Timelocked advantage distillation and the 20% barrier of quantum key distribution"）、要旨を 229 語・引用なしに（IOP 上限 300 語）。本文・数値は不変（v2.2.0）。
 - S12 再実行: submission-bundle-jpa/（format-free 用 12 pt 単段 PDF 31 頁、main.tex、figures/、supplemental_material.zip、cover_letter.md、suggested_referees.md、declarations.md、requirements.md）。
+
+## J. Phys. A 不採択（2026-11-12）
+- 結果: J. Phys. A 編集部より査読前不採択（JPhysA-126466、定型文「高い水準・科学的関心・文献への貢献の基準を満たさない」）。技術的指摘なし、査読報告なし。
+- 2 誌の共通点: いずれも題名・要旨段階の判断で、内容の誤りは指摘されていない。v2.2.0 の改稿は題名と要旨の短縮のみで、要旨の主語は依然「timelock は何も買わない」という否定形、利得は「stated assumption」と open question に依存する構成のまま。
+- 診断（推定、編集部の理由は開示されていない）: 編集者が冒頭で読む主張が否定的結果で、肯定的な寄与（定理 1: 全パリティ類の Helstrom 測定が単一の Pauli 軌道基底で同時実現できる、任意ブロック長）が 4 文目に埋もれている。
+- 次の選択肢（各誌の料金・方針は一般知識で未照合、投稿時に確認）:
+  | 経路 | 内容 | 判断 |
+  |---|---|---|
+  | A: 現行版をそのまま別誌へ | Quantum Information Processing（Springer、購読誌）、Entropy（MDPI、APC 要、Novak 2025 の掲載誌） | 速いが、同じ読まれ方で同じ判定を受ける可能性 |
+  | B: 定理 1 を主語に再構成してから投稿 | 題名・要旨・§1 の寄与順を「事後情報付き状態識別の同時最適性定理」先頭に組み替え、QKD への帰結（20% 障壁、分割隠蔽の局所性）を応用として後置。数値・本文の主張は不変 | 推奨。投稿先は QIP、または arXiv 制限解除後に Quantum |
+- 決定: 経路 B（2026-11-12、ユーザー選択）。
+
+## 経路 B の実施と投稿先（2026-11-12）
+- 投稿先: **Quantum Information Processing（Springer、Regular Article）**。arXiv 不要、購読誌ルートあり、プレプリント可（Research Square は Springer Nature 系列）。Quantum は arXiv 制限解除後の代替。
+- 要件（公式ページ 2026-11-12 取得）: 要旨 150–250 語、キーワード 4–6、本文に "Statements and Declarations"、Data Availability Statement 必須、LaTeX ソース＋PDF、LLM 利用（コピー編集を超えるもの）は本文に記載。照合表は submission-bundle-qip/requirements.md。
+- 改稿（v2.3.0）: 題名 "Parity-independent optimal eavesdropping on advantage distillation in quantum key distribution"、要旨 219 語（定理 1 を主語）、§1 に冒頭段落を新設し寄与の順を定理 1 先頭に、§8 冒頭を定理から始める形に。§2–§7 と付録は v2.2.0 とバイト一致、数値不変。文献リストは初出順に並べ替え。
+- 著者判断が残る項目: Funding、ORCID、AI ツール利用の記載、推薦査読者のメール。
