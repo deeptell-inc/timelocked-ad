@@ -3,8 +3,9 @@ Run from the project root: python3 submission-bundle-qip/make_qip_tex.py
 Changes: single-column 12 pt, keywords, wide tables squeezed, and a "Statements and Declarations"
 section (required by Quantum Information Processing) that absorbs the data availability paragraph."""
 import os, re
-FUNDING = ""   # author to set, e.g. "No funding was received for conducting this study."
-AI_USE = ""    # author to set if a statement on the use of AI tools is to be included
+FUNDING = "No funding was received for conducting this study."
+AI_USE = ("The author used an AI assistant (Claude, Anthropic) in preparing the analysis code, exploring the numerical results "
+          "and drafting the text. The author verified all results and takes full responsibility for the content of the article.")
 KEYWORDS = "Quantum key distribution, Advantage distillation, State discrimination, Post-measurement information, Helstrom measurement"
 here = os.path.dirname(os.path.abspath(__file__))
 t = open(os.path.join(here, "..", "paper", "main.tex")).read()

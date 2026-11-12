@@ -185,3 +185,8 @@ version: 0.3.0
 - submission-bundle/（PRA）と submission-bundle-jpa/（J. Phys. A）の main.tex・main.pdf・カバーレター類は不採択済み投稿の記録として据え置き。
 - S17: 新規の数値 claim なし。新しい表現（「全パリティ類の Helstrom 測定が両立」「2^{b-1} 個の Pauli 作用素による軌道」「b≤4 で SDP と一致、b≤9 で 1e-14」）は §3・付録 A の既存記述の言い換え。
 - 残り（ユーザー作業）: declarations.md の Funding・ORCID・AI ツール利用の記載の判断、推薦査読者のメール、Springer の投稿システムで main.tex＋figures＋main.pdf＋ESM_1.zip を投稿。
+
+## QIP バンドル: Funding と AI 利用の記載（2026-11-12）
+- ユーザー決定: Funding は none、AI ツール利用の記載を本文に入れる。`make_qip_tex.py` の `FUNDING` / `AI_USE` を設定し、submission-bundle-qip/main.tex・main.pdf を再生成（32 頁、未定義参照 0、投稿衛生 grep 0）。"Statements and Declarations" 節は Competing interests、Funding、Data availability、Author contributions、Use of AI tools の 5 段落。declarations.md・requirements.md を更新。
+- 残り（ユーザー作業）: ORCID（任意）、推薦査読者のメール、Springer の投稿システムで投稿。
+- 推薦査読者 6 名の所属機関メールを所属機関ページ・論文の責任著者欄から確認し、出典付きで suggested_referees.md に記載（Leverrier は連絡先ページの書式 "firstname.name@inria.fr" からの組み立て）。残り（ユーザー作業）: 候補の利益相反確認、ORCID（任意）、Springer の投稿システムで投稿。
